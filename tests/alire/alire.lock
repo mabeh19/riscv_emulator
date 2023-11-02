@@ -1,0 +1,110 @@
+# THIS IS A MACHINE-GENERATED FILE. DO NOT EDIT MANUALLY.
+
+[solution]
+[solution.context]
+solved = true
+[[solution.state]]
+crate = "aunit"
+fulfilment = "solved"
+pinned = false
+shared = false
+transitivity = "direct"
+versions = "^22.0.0"
+[solution.state.release]
+authors = [
+"AdaCore",
+]
+description = "Ada unit test framework"
+licenses = "GPL-3.0-or-later WITH GCC-exception-3.1"
+maintainers = [
+"chouteau@adacore.com",
+]
+maintainers-logins = [
+"Fabien-Chouteau",
+]
+name = "aunit"
+project-files = [
+"lib/gnat/aunit.gpr",
+]
+tags = [
+"unit",
+"test",
+"unit-test",
+]
+version = "22.0.0"
+[solution.state.release.configuration]
+auto_gpr_with = true
+disabled = true
+generate_ada = true
+generate_c = true
+generate_gpr = true
+output_dir = "config"
+[solution.state.release.gpr-externals]
+AUNIT_BUILD_MODE = [
+"Devel",
+"Install",
+]
+AUNIT_RUNTIME = [
+"full",
+"zfp",
+"zfp-cross",
+"ravenscar",
+"ravenscar-cert",
+"cert",
+]
+[solution.state.release.origin]
+hashes = [
+"sha512:cbd7a80ad1e335d53d3a4834d48c9dd2df153bb1110a787a88003443de3ab2839534910103ce0b3ff98dca83e86e97e2bca48d4182acd2af5705ec723f84b66b",
+]
+url = "https://github.com/AdaCore/aunit/archive/v22.0.0/aunit-22.0.0.zip"
+[[solution.state]]
+crate = "gnatcov"
+fulfilment = "solved"
+pinned = false
+shared = true
+transitivity = "direct"
+versions = "^22.0.1"
+[solution.state.release]
+auto-gpr-with = false
+description = "Coverage Analysis Tool"
+maintainers = [
+"chouteau@adacore.com",
+]
+maintainers-logins = [
+"Fabien-Chouteau",
+]
+name = "gnatcov"
+tags = [
+"coverage",
+"analysis",
+"test",
+]
+version = "22.0.1"
+[solution.state.release.configuration]
+auto_gpr_with = true
+disabled = true
+generate_ada = true
+generate_c = true
+generate_gpr = true
+output_dir = "config"
+[solution.state.release.environment]
+[solution.state.release.environment.GPR_PROJECT_PATH]
+append = "${CRATE_ROOT}/share/gnatcoverage/gnatcov_rts/"
+[solution.state.release.environment.PATH]
+prepend = "${CRATE_ROOT}/bin"
+[solution.state.release.origin]
+binary = true
+hashes = [
+"sha256:eae687f0fb100524933ae37123a1de5ec26e5fca7fe2355cf2b267c9ccc0989a",
+]
+url = "https://github.com/alire-project/GNAT-FSF-builds/releases/download/gnatcov-22.0-1/gnatcov-x86_64-linux-22.0-1.tar.gz"
+[[solution.state]]
+crate = "riscv_emulator"
+fulfilment = "linked"
+pinned = false
+transitivity = "direct"
+versions = "~0.0.0"
+[solution.state.link]
+lockfiled = true
+path = ".."
+

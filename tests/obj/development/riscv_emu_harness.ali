@@ -1,0 +1,136 @@
+V "GNAT Lib v13"
+M P W=b
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyI
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U riscv_emu_harness%b	riscv_emu_harness.adb	8bcf2b67 NE OO SU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.reporter%s	aunit-reporter.adb	aunit-reporter.ali
+W aunit.reporter.text%s	aunit-reporter-text.adb	aunit-reporter-text.ali
+W aunit.run%s		aunit-run.adb		aunit-run.ali
+W riscv_emu_suite%b	riscv_emu_suite.adb	riscv_emu_suite.ali
+
+D ada.ads		20230802193341 76789da1 ada%s
+D a-calend.ads		20230802193341 f55c50a3 ada.calendar%s
+D a-except.ads		20230802193341 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230802193341 bf4f806b ada.finalization%s
+D a-inteio.ads		20230802193341 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230802193341 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230802193341 119b8fb3 ada.streams%s
+D a-string.ads		20230802193341 90ac6797 ada.strings%s
+D a-sttebu.ads		20230802193341 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230802193341 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230802193341 9eaa38c6 ada.tags%s
+D a-textio.ads		20230802193341 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20230802193341 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20230802193341 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20210827100008 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20210827100008 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20210827100008 76cdf7c6 aunit%s
+D aunit-assertions.ads	20210827100008 b7f9ecd6 aunit.assertions%s
+D aunit-io.ads		20210827100008 fb5ed18b aunit.io%s
+D aunit-options.ads	20210827100008 6e5a02a6 aunit.options%s
+D aunit-reporter.ads	20210827100008 2c6ff74a aunit.reporter%s
+D aunit-reporter-text.ads  20210827100008 3a193bce aunit.reporter.text%s
+D aunit-run.ads		20210827100008 34d20999 aunit.run%s
+D aunit-run.adb		20210827100008 1550dc91 aunit.run%b
+D aunit-simple_test_cases.ads  20210827100008 4111c32f aunit.simple_test_cases%s
+D aunit-test_cases.ads	20210827100008 3fb77584 aunit.test_cases%s
+D aunit-test_filters.ads  20210827100008 f10b2127 aunit.test_filters%s
+D aunit-test_results.ads  20210827100008 b44de7dc aunit.test_results%s
+D aunit-test_suites.ads	20210827100008 6821dc24 aunit.test_suites%s
+D aunit-tests.ads	20210827100008 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20210827100008 d9c247b0 aunit.time_measure%s
+D gnat.ads		20230802193341 b5988c27 gnat%s
+D g-souinf.ads		20230802193341 265ae3bd gnat.source_info%s
+D interfac.ads		20230802193341 15f799c2 interfaces%s
+D i-cstrea.ads		20230802193341 e53d8b8e interfaces.c_streams%s
+D riscv_base_instruction_format.ads  20231101194555 a53b17e8 riscv_base_instruction_format%s
+D riscv_base_instruction_format_test.ads  20231024190737 07aa80c1 riscv_base_instruction_format_test%s
+D riscv_base_instruction_set.ads  20231101211236 89d86fa5 riscv_base_instruction_set%s
+D riscv_base_instruction_set_test.ads  20231029211101 256f3c95 riscv_base_instruction_set_test%s
+D riscv_cpu.ads		20231101205857 a40a0c3b riscv_cpu%s
+D riscv_emu_harness.adb	20231023200504 0d7c7d72 riscv_emu_harness%b
+D riscv_emu_suite.adb	20231028194000 88786442 riscv_emu_suite%b
+D riscv_instruction.ads	20231101211255 b9182c2f riscv_instruction%s
+D riscv_instruction_add_test.ads  20231028123202 7f836e14 riscv_instruction_add_test%s
+D riscv_instruction_addi_test.ads  20231028122208 b37b2fa7 riscv_instruction_addi_test%s
+D riscv_instruction_jal_test.ads  20231028125248 69666976 riscv_instruction_jal_test%s
+D riscv_instruction_sra_test.ads  20231028193922 0d676b0b riscv_instruction_sra_test%s
+D riscv_instruction_sub_test.ads  20231028132042 22d8dc35 riscv_instruction_sub_test%s
+D riscv_memory.ads	20231101200433 d5d5a5f2 riscv_memory%s
+D riscv_memory_test.ads	20231024184111 a6d70e47 riscv_memory_test%s
+D riscv_registers.ads	20231028202404 08501fa4 riscv_registers%s
+D system.ads		20230802193341 426dafb8 system%s
+D s-crtl.ads		20230802193341 8a0692f8 system.crtl%s
+D s-exctab.ads		20230802193341 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230802193341 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20230802193341 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230802193341 4ff27390 system.finalization_root%s
+D s-parame.ads		20230802193341 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230802193341 91708d21 system.pool_global%s
+D s-putima.ads		20230802193341 17291fe4 system.put_images%s
+D s-retsta.ads		20230802193341 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230802193341 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230802193341 df77073e system.soft_links%s
+D s-stache.ads		20230802193341 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230802193341 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230802193341 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230802193341 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230802193341 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20230802193341 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20230802193341 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230802193341 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230802193341 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230802193341 d9032363 system.wch_con%s
+D s-wchstw.ads		20230802193341 2d112c01 system.wch_stw%s
+G a e
+G c Z b b [riscv_emu_harness standard 6 11 none]
+G r i none [riscv_emu_harness standard 6 11 none] [test_runner aunit__run 42 14 none]
+G r s text_reporter [riscv_emu_harness standard 6 11 none] [text_reporterIP aunit__reporter__text 62 9 none]
+G r s result [riscv_emu_harness standard 6 11 none] [resultIP aunit__test_results 140 9 none]
+G r c none [riscv_emu_harness standard 6 11 none] [clear aunit__test_results 133 14 none]
+G r c none [riscv_emu_harness standard 6 11 none] [riscv_emu_suite standard 12 10 none]
+G r c none [riscv_emu_harness standard 6 11 none] [run aunit__run 37 14 none]
+X 17 aunit.ads
+34K9*AUnit 48e10 41|2r6 3r6 8r28 10r15
+X 21 aunit-reporter.ads
+36K15*Reporter 58e19 41|2r12 10r21
+X 22 aunit-reporter-text.ads
+33K24*Text 66e24 41|2w21 10r30
+35R9*Text_Reporter<21|38R9> 64e14 41|10r35
+X 23 aunit-run.ads
+38K15*Run 65e14 41|3w12 8r34
+42u14*Test_Runner 41|8r38
+X 29 aunit-test_suites.ads
+44P9*Access_Test_Suite(43R9)
+X 41 riscv_emu_harness.adb
+6U11*RISCV_Emu_Harness 6b11 14l5 14t22
+8U14 Runner[23|42] 24|79b14 41|13s4
+10r4 Reporter{22|35R9} 13r12
+X 42 riscv_emu_suite.adb
+12V10*RISCV_Emu_Suite{29|44P9} 41|4w6 8r51
+

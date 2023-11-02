@@ -1,0 +1,202 @@
+V "GNAT Lib v13"
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyI
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U riscv_instruction_addi_test%b  riscv_instruction_addi_test.adb  019f0c75 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W riscv_base_instruction_format%s  riscv_base_instruction_format.adb  riscv_base_instruction_format.ali
+W riscv_cpu%s		riscv_cpu.adb		riscv_cpu.ali
+W riscv_instruction%s	riscv_instruction.adb	riscv_instruction.ali
+W riscv_registers%s	riscv_registers.adb	riscv_registers.ali
+
+U riscv_instruction_addi_test%s  riscv_instruction_addi_test.ads  fa01ade5 EE OO PF PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_cases%s	aunit-test_cases.adb	aunit-test_cases.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230802193341 76789da1 ada%s
+D a-calend.ads		20230802193341 f55c50a3 ada.calendar%s
+D a-except.ads		20230802193341 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230802193341 bf4f806b ada.finalization%s
+D a-inteio.ads		20230802193341 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230802193341 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230802193341 119b8fb3 ada.streams%s
+D a-string.ads		20230802193341 90ac6797 ada.strings%s
+D a-sttebu.ads		20230802193341 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230802193341 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230802193341 9eaa38c6 ada.tags%s
+D a-textio.ads		20230802193341 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20230802193341 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20230802193341 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20210827100008 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20210827100008 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20210827100008 76cdf7c6 aunit%s
+D aunit-assertions.ads	20210827100008 b7f9ecd6 aunit.assertions%s
+D aunit-io.ads		20210827100008 fb5ed18b aunit.io%s
+D aunit-options.ads	20210827100008 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20210827100008 4111c32f aunit.simple_test_cases%s
+D aunit-test_cases.ads	20210827100008 3fb77584 aunit.test_cases%s
+D aunit-test_filters.ads  20210827100008 f10b2127 aunit.test_filters%s
+D aunit-test_results.ads  20210827100008 b44de7dc aunit.test_results%s
+D aunit-tests.ads	20210827100008 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20210827100008 d9c247b0 aunit.time_measure%s
+D gnat.ads		20230802193341 b5988c27 gnat%s
+D g-souinf.ads		20230802193341 265ae3bd gnat.source_info%s
+D interfac.ads		20230802193341 15f799c2 interfaces%s
+D i-cstrea.ads		20230802193341 e53d8b8e interfaces.c_streams%s
+D riscv_base_instruction_format.ads  20231101194555 a53b17e8 riscv_base_instruction_format%s
+D riscv_cpu.ads		20231101205857 a40a0c3b riscv_cpu%s
+D riscv_instruction.ads	20231101211255 b9182c2f riscv_instruction%s
+D riscv_instruction_addi_test.ads  20231028122208 b37b2fa7 riscv_instruction_addi_test%s
+D riscv_instruction_addi_test.adb  20231102203316 e948860f riscv_instruction_addi_test%b
+D riscv_memory.ads	20231101200433 d5d5a5f2 riscv_memory%s
+D riscv_registers.ads	20231028202404 08501fa4 riscv_registers%s
+D system.ads		20230802193341 426dafb8 system%s
+D s-crtl.ads		20230802193341 8a0692f8 system.crtl%s
+D s-exctab.ads		20230802193341 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230802193341 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20230802193341 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230802193341 4ff27390 system.finalization_root%s
+D s-parame.ads		20230802193341 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230802193341 91708d21 system.pool_global%s
+D s-putima.ads		20230802193341 17291fe4 system.put_images%s
+D s-secsta.ads		20230802193341 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230802193341 df77073e system.soft_links%s
+D s-stache.ads		20230802193341 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230802193341 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230802193341 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230802193341 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230802193341 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230802193341 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230802193341 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230802193341 d9032363 system.wch_con%s
+G a e
+G c Z s b [name riscv_instruction_addi_test 8 13 none]
+G c Z s b [register_tests riscv_instruction_addi_test 10 14 none]
+G c Z s b [test_addi_x0 riscv_instruction_addi_test 12 14 none]
+G c Z s b [test_addi_x1 riscv_instruction_addi_test 13 14 none]
+G c Z s b [test_addi_x2 riscv_instruction_addi_test 14 14 none]
+G c Z s s [testDF riscv_instruction_addi_test 6 9 none]
+G c Z s s [testIP riscv_instruction_addi_test 6 9 none]
+G r c none [name riscv_instruction_addi_test 8 13 none] [format aunit 44 13 none]
+G r c none [register_tests riscv_instruction_addi_test 10 14 none] [register_routine aunit__test_cases__registration 65 17 none]
+G r c none [test_addi_x0 riscv_instruction_addi_test 12 14 none] [addi riscv_instruction 10 14 none]
+G r c none [test_addi_x0 riscv_instruction_addi_test 12 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_addi_x1 riscv_instruction_addi_test 13 14 none] [addi riscv_instruction 10 14 none]
+G r c none [test_addi_x1 riscv_instruction_addi_test 13 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_addi_x2 riscv_instruction_addi_test 14 14 none] [addi riscv_instruction 10 14 none]
+G r c none [test_addi_x2 riscv_instruction_addi_test 14 14 none] [assert aunit__assertions 48 14 none]
+G r s test_case [testIP riscv_instruction_addi_test 6 9 none] [test_caseIP aunit__test_cases 116 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 35|1r6
+X 12 a-textio.ads
+58K13*Text_IO 787e16 35|1w10
+X 16 ada_containers-aunit_lists.ads
+53R9*Cursor
+X 17 aunit.ads
+34K9*AUnit 48e10 34|1w6 1r17 2r6 2r29 8r36 35|2r6 2r29 10r35 13r14 17r11
+36P9*Message_String(string) 34|8r42 35|10r41
+44V13*Format{36P9} 35|13s20
+X 18 aunit-assertions.ads
+44K15*Assertions 155e21 35|2w12 2r35
+48U14*Assert 35|39s7 58s7 77s7
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter<16|53R9[145]>
+113V13*First_Failure{110R9}
+X 21 aunit-simple_test_cases.ads
+57U14*Set_Up
+60U14*Tear_Down
+X 22 aunit-test_cases.ads
+39K15*Test_Cases 121e21 34|2w12 2r35 6r21 12r38 13r38 14r38 35|17r17 24r38
+. 42r38 61r38
+41H9*Test_Case<21|44R9> 119e14 34|6r32 12r49 13r49 14r49 35|24r49 42r49 61r49
+57U14*Set_Up_Case
+60U14*Tear_Down_Case
+63K12*Registration 74e20 35|17r28
+65U17*Register_Routine 35|19s7 20s7 21s7
+91U14*Run<21|67p14>
+98U14*Run_Test<21|53p14>
+101V13*Routine_Name{17|36P9}<21|50p13>
+X 31 riscv_base_instruction_format.ads
+3K9*RISCV_Base_Instruction_Format 146e34 35|3w6 3r41
+5M9*Instruction 35|36r14 55r14 74r14
+X 32 riscv_cpu.ads
+5K9*RISCV_CPU 38e14 35|6w6 6r29
+7R9*CPU_Context 18e14 35|25r13 43r13 62r13
+8a7*ROM{36|23A12} 35|26m10 44m10 63m10
+9a7*RAM{36|22A12} 35|27m10 45m10 64m10
+10r7*Core_Registers{37|8R9} 35|28m10 39r19 46m10 58r19 65m10 77r19
+17b7*Should_Quit{boolean} 35|33m10 51m10 70m10
+X 33 riscv_instruction.ads
+4K9*RISCV_Instruction 101e22 35|4w6 4r29
+10U14*ADDI 35|38s7 57s7 76s7
+X 34 riscv_instruction_addi_test.ads
+4K9*RISCV_Instruction_ADDI_Test 17l5 17e32 35|8b14 82l5 82t32
+6R9*Test<22|41R9> 18|101p14 104p14 107p13 113p13 21|57p14 60p14 22|57p14
+. 60p14 91P14 98P14 101P13 34|6e58 8P13 8r23 10P14 10r41 35|10r22 16r41
+8V13*Name{17|36P9}<21|47p13> 8>19 35|10b13 14l8 14t12
+8r19 T{6R9} 35|10b19 11r28
+10U14*Register_Tests<22|54p14> 10=30 35|16b14 22l8 22t22
+10r30 T{6R9} 35|16b30 19m25 20m25 21m25
+12U14*Test_ADDI_x0 12=27 35|19r28 24b14 40l8 40t20
+12c27 T<22|41R9> 35|24b27
+13U14*Test_ADDI_x1 13=27 35|20r28 42b14 59l8 59t20
+13c27 T<22|41R9> 35|42b27
+14U14*Test_ADDI_x2 14=27 35|21r28 61b14 78l8 78t20
+14c27 T<22|41R9> 35|61b27
+X 35 riscv_instruction_addi_test.adb
+25r7 CPU{32|7R9} 38m13 39r15
+36m7 Inst{31|5M9} 38r18
+43r7 CPU{32|7R9} 57m13 58r15
+55m7 Inst{31|5M9} 57r18
+62r7 CPU{32|7R9} 76m13 77r15
+74m7 Inst{31|5M9} 76r18
+X 36 riscv_memory.ads
+5M9*Byte
+9A9*Memory(5M9)<8I9>
+22A12*RAM_Memory{9A9}<8I9>
+23A12*Flash_Memory{9A9}<8I9>
+X 37 riscv_registers.ads
+2K9*RISCV_Registers 35|5w6 5r29 37|23e20
+4M9*Register
+5A9*Base_Core_Registers(4M9)<integer>
+6A9*CSR_Space(4M9)<integer>
+9a7*X{5A9} 35|29m13 39r34 47m13 58r34 66m13 77r34
+10m7*PC{4M9} 35|30m13 48m13 67m13
+11a7*CSR{6A9} 35|31m13 49m13 68m13
+

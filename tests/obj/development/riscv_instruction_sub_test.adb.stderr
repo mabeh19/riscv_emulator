@@ -1,0 +1,3 @@
+riscv_instruction_sub_test.adb:82:42: warning: negative literal of modular type is in fact positive [-gnatw.m]
+riscv_instruction_sub_test.adb:82:42: warning: do you really mean 4294966646 when writing -650 ? [-gnatw.m]
+riscv_instruction_sub_test.adb:82:42: warning: if you do, use qualification to avoid this warning [-gnatw.m]

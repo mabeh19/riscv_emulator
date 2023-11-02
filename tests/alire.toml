@@ -1,0 +1,16 @@
+name = "tests"
+description = "Unit tests"
+version = "0.0.0"
+
+executables = ["tests"]
+
+[[depends-on]]
+aunit = "^22.0.0"
+gnatcov = "^22.0.1"
+riscv_emulator = "~0.0.0"
+
+[[pins]]
+riscv_emulator = { path = ".." }
+
+[build-profiles]
+riscv_emulator = "development"

@@ -1,0 +1,266 @@
+V "GNAT Lib v13"
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyI
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U riscv_base_instruction_format_test%b  riscv_base_instruction_format_test.adb  b947ddfc OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W riscv_base_instruction_format%s  riscv_base_instruction_format.adb  riscv_base_instruction_format.ali
+Z system.img_uns%s	s-imguns.ads		s-imguns.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U riscv_base_instruction_format_test%s  riscv_base_instruction_format_test.ads  ebeb156b EE OO PF PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_cases%s	aunit-test_cases.adb	aunit-test_cases.ali
+W riscv_base_instruction_format%s  riscv_base_instruction_format.adb  riscv_base_instruction_format.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230802193341 76789da1 ada%s
+D a-assert.ads		20230802193341 ba465f5c ada.assertions%s
+D a-calend.ads		20230802193341 f55c50a3 ada.calendar%s
+D a-except.ads		20230802193341 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230802193341 bf4f806b ada.finalization%s
+D a-inteio.ads		20230802193341 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230802193341 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230802193341 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230802193341 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230802193341 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20230802193341 119b8fb3 ada.streams%s
+D a-string.ads		20230802193341 90ac6797 ada.strings%s
+D a-sttebu.ads		20230802193341 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230802193341 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230802193341 9eaa38c6 ada.tags%s
+D a-textio.ads		20230802193341 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20230802193341 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20230802193341 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20210827100008 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20210827100008 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20210827100008 76cdf7c6 aunit%s
+D aunit-assertions.ads	20210827100008 b7f9ecd6 aunit.assertions%s
+D aunit-io.ads		20210827100008 fb5ed18b aunit.io%s
+D aunit-options.ads	20210827100008 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20210827100008 4111c32f aunit.simple_test_cases%s
+D aunit-test_cases.ads	20210827100008 3fb77584 aunit.test_cases%s
+D aunit-test_filters.ads  20210827100008 f10b2127 aunit.test_filters%s
+D aunit-test_results.ads  20210827100008 b44de7dc aunit.test_results%s
+D aunit-tests.ads	20210827100008 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20210827100008 d9c247b0 aunit.time_measure%s
+D gnat.ads		20230802193341 b5988c27 gnat%s
+D g-souinf.ads		20230802193341 265ae3bd gnat.source_info%s
+D interfac.ads		20230802193341 15f799c2 interfaces%s
+D i-cstrea.ads		20230802193341 e53d8b8e interfaces.c_streams%s
+D riscv_base_instruction_format.ads  20231101194555 a53b17e8 riscv_base_instruction_format%s
+D riscv_base_instruction_format_test.ads  20231024190737 07aa80c1 riscv_base_instruction_format_test%s
+D riscv_base_instruction_format_test.adb  20231028164909 f003c750 riscv_base_instruction_format_test%b
+D system.ads		20230802193341 426dafb8 system%s
+D s-assert.ads		20230802193341 9c4520c7 system.assertions%s
+D s-casuti.ads		20230802193341 cf13d755 system.case_util%s
+D s-crtl.ads		20230802193341 8a0692f8 system.crtl%s
+D s-exctab.ads		20230802193341 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230802193341 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20230802193341 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230802193341 4ff27390 system.finalization_root%s
+D s-imageu.ads		20230802193341 631c6ed0 system.image_u%s
+D s-imguns.ads		20230802193341 7867236f system.img_uns%s
+D s-parame.ads		20230802193341 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230802193341 91708d21 system.pool_global%s
+D s-putima.ads		20230802193341 17291fe4 system.put_images%s
+D s-secsta.ads		20230802193341 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230802193341 df77073e system.soft_links%s
+D s-stache.ads		20230802193341 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230802193341 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230802193341 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230802193341 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230802193341 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230802193341 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230802193341 fa2a7f59 system.unsigned_types%s
+D s-valuns.ads		20230802193341 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230802193341 fcd603d8 system.val_util%s
+D s-valueu.ads		20230802193341 18770347 system.value_u%s
+D s-vauspe.ads		20230802193341 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20230802193341 d9032363 system.wch_con%s
+D s-widuns.ads		20230802193341 866a5800 system.wid_uns%s
+D s-widthu.ads		20230802193341 b32f15e2 system.width_u%s
+G a e
+G c Z s b [name riscv_base_instruction_format_test 9 13 none]
+G c Z s b [register_tests riscv_base_instruction_format_test 11 14 none]
+G c Z s b [test_create_i_immediate riscv_base_instruction_format_test 14 14 none]
+G c Z s b [test_create_s_immediate riscv_base_instruction_format_test 15 14 none]
+G c Z s b [test_create_u_immediate riscv_base_instruction_format_test 16 14 none]
+G c Z s b [test_create_b_immediate riscv_base_instruction_format_test 17 14 none]
+G c Z s b [test_create_j_immediate riscv_base_instruction_format_test 18 14 none]
+G c Z s s [testDF riscv_base_instruction_format_test 7 9 none]
+G c Z s s [testIP riscv_base_instruction_format_test 7 9 none]
+G r c none [name riscv_base_instruction_format_test 9 13 none] [format aunit 44 13 none]
+G r c none [register_tests riscv_base_instruction_format_test 11 14 none] [register_routine aunit__test_cases__registration 65 17 none]
+G r c none [test_create_i_immediate riscv_base_instruction_format_test 14 14 none] [create_i_immediate riscv_base_instruction_format 139 13 none]
+G r c none [test_create_i_immediate riscv_base_instruction_format_test 14 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_create_s_immediate riscv_base_instruction_format_test 15 14 none] [create_s_immediate riscv_base_instruction_format 140 13 none]
+G r c none [test_create_s_immediate riscv_base_instruction_format_test 15 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_create_u_immediate riscv_base_instruction_format_test 16 14 none] [create_u_immediate riscv_base_instruction_format 141 13 none]
+G r c none [test_create_u_immediate riscv_base_instruction_format_test 16 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_create_b_immediate riscv_base_instruction_format_test 17 14 none] [create_b_immediate riscv_base_instruction_format 142 13 none]
+G r c none [test_create_b_immediate riscv_base_instruction_format_test 17 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_create_j_immediate riscv_base_instruction_format_test 18 14 none] [create_j_immediate riscv_base_instruction_format 143 13 none]
+G r c none [test_create_j_immediate riscv_base_instruction_format_test 18 14 none] [assert aunit__assertions 48 14 none]
+G r s test_case [testIP riscv_base_instruction_format_test 7 9 none] [test_caseIP aunit__test_cases 116 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 37|1r6
+X 16 a-textio.ads
+58K13*Text_IO 787e16 37|1w10
+X 20 ada_containers-aunit_lists.ads
+53R9*Cursor
+X 21 aunit.ads
+34K9*AUnit 48e10 36|1w6 1r17 2r6 2r29 9r36 37|2r6 2r28 7r35 10r14 14r11
+36P9*Message_String(string) 36|9r42 37|7r41
+44V13*Format{36P9} 37|10s20
+X 22 aunit-assertions.ads
+44K15*Assertions 155e21 37|2w12 2r34
+48U14*Assert 37|39s7 40s7 62s7 63s7 74s7 90s7 104s7
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter<20|53R9[145]>
+113V13*First_Failure{110R9}
+X 25 aunit-simple_test_cases.ads
+57U14*Set_Up
+60U14*Tear_Down
+X 26 aunit-test_cases.ads
+39K15*Test_Cases 121e21 36|2w12 2r35 7r21 14r50 15r50 16r50 17r50 18r50 37|14r17
+. 23r50 43r50 66r50 77r50 93r50
+41H9*Test_Case<25|44R9> 119e14 36|7r32 14r61 15r61 16r61 17r61 18r61 37|23r61
+. 43r61 66r61 77r61 93r61
+57U14*Set_Up_Case
+60U14*Tear_Down_Case
+63K12*Registration 74e20 37|14r28
+65U17*Register_Routine 37|16s7 17s7 18s7 19s7 20s7
+91U14*Run<25|67p14>
+98U14*Run_Test<25|53p14>
+101V13*Routine_Name{21|36P9}<25|50p13>
+X 35 riscv_base_instruction_format.ads
+3K9*RISCV_Base_Instruction_Format 146e34 36|3w6 37|3w6 3r43
+6M9*Immediate 37|36r13 37r13 40r22 58r14 59r14 60r23 71r14 72r23 72r36 87r14
+. 88r23 101r14 102r23
+8M9*Operation
+9M9*Register
+10M9*Byte
+11M9*Res3
+13M9*Imm_11_0
+14M9*Imm_11_5
+15M9*Imm_4_0
+16M9*Imm_31_12 37|70r22 72r47
+17M9*Imm_4_1
+18M9*Imm_10_5
+19M9*Imm_19_12
+20M9*Imm_10_1
+21M9*Imm_20<10M9>
+43R9*I_Format 50e7 37|24r14 30r14
+44m7*Opcode{8M9} 37|25m10 31m10
+45m7*Rd{9M9} 37|26m10 32m10
+46m7*Funct3{11M9} 37|27m10 33m10
+47m7*Rs1{9M9} 37|28m10 34m10
+48m7*Imm{13M9} 37|29m10 35m10 40r38
+61R9*S_Format 69e7 37|44r14 51r14
+62m7*Opcode{8M9} 37|45m10 52m10
+63m7*Imm_L{15M9} 37|46m10 53m10
+64m7*Funct3{11M9} 37|47m10 54m10
+65m7*Rs1{9M9} 37|48m10 55m10
+66m7*Rs2{9M9} 37|49m10 56m10
+67m7*Imm_H{14M9} 37|50m10 57m10
+81R9*U_Format 86e7 37|67r14
+82m7*Opcode{8M9} 37|68m10
+83m7*Rd{9M9} 37|69m10
+84m7*Imm{16M9} 37|70m10
+95R9*B_Format 105e7 37|78r14
+96m7*Opcode{8M9} 37|79m10
+97m7*Imm11{10M9} 37|80m10
+98m7*Imm41{17M9} 37|81m10
+99m7*Funct3{11M9} 37|82m10
+100m7*Rs1{9M9} 37|83m10
+101m7*Rs2{9M9} 37|84m10
+102m7*Imm105{18M9} 37|85m10
+103m7*Imm12{10M9} 37|86m10
+119R9*J_Format 127e7 37|94r14
+120m7*Opcode{8M9} 37|95m10
+121m7*Rd{9M9} 37|96m10
+122m7*Imm1912{19M9} 37|97m10
+123m7*Imm11{10M9} 37|98m10
+124m7*Imm101{20M9} 37|99m10
+125m7*Imm20{21M9} 37|100m10
+139V13*Create_I_Immediate{6M9} 37|36s26 37s26
+140V13*Create_S_Immediate{6M9} 37|58s27 59s27
+141V13*Create_U_Immediate{6M9} 37|71s27
+142V13*Create_B_Immediate{6M9} 37|87s27
+143V13*Create_J_Immediate{6M9} 37|101s27
+X 36 riscv_base_instruction_format_test.ads
+5K9*RISCV_Base_Instruction_Format_Test 20l5 20e39 37|5b14 107l5 107t39
+7R9*Test<26|41R9> 22|101p14 104p14 107p13 113p13 25|57p14 60p14 26|57p14
+. 60p14 91P14 98P14 101P13 36|7e58 9P13 9r23 11P14 11r41 37|7r22 13r41
+9V13*Name{21|36P9}<25|47p13> 9>19 37|7b13 11l8 11t12
+9r19 T{7R9} 37|7b19 8r28
+11U14*Register_Tests<26|54p14> 11=30 37|13b14 21l8 21t22
+11r30 T{7R9} 37|13b30 16m25 17m25 18m25 19m25 20m25
+14U14*Test_Create_I_Immediate 14=39 37|16r28 23b14 41l8 41t31
+14c39 T<26|41R9> 37|23b39
+15U14*Test_Create_S_Immediate 15=39 37|17r28 43b14 64l8 64t31
+15c39 T<26|41R9> 37|43b39
+16U14*Test_Create_U_Immediate 16=39 37|18r28 66b14 75l8 75t31
+16c39 T<26|41R9> 37|66b39
+17U14*Test_Create_B_Immediate 17=39 37|19r28 77b14 91l8 91t31
+17c39 T<26|41R9> 37|77b39
+18U14*Test_Create_J_Immediate 18=39 37|20r28 93b14 105l8 105t31
+18c39 T<26|41R9> 37|93b39
+X 37 riscv_base_instruction_format_test.adb
+24r7 I_F1{35|43R9} 36r46
+30r7 I_F2{35|43R9} 37r46 40r33
+36m7 Imm1{35|6M9} 39r15
+37m7 Imm2{35|6M9} 40r15
+44r7 S_F1{35|61R9} 58r47
+51r7 S_F2{35|61R9} 59r47
+58m7 Imm1{35|6M9} 62r15
+59m7 Imm2{35|6M9} 63r15 63r37
+60m7 Imm2_Expected{35|6M9} 63r22 63r57
+67r7 U_F1{35|81R9} 71r47
+71m7 Imm1{35|6M9} 74r15 74r37
+72m7 Imm1_Expected{35|6M9} 74r22 74r57
+78r7 B_F1{35|95R9} 87r47
+87m7 Imm1{35|6M9} 90r15 90r37
+88m7 Imm1_Expected{35|6M9} 90r22 90r57
+94r7 J_F1{35|119R9} 101r47
+101m7 Imm1{35|6M9} 104r15 104r37
+102m7 Imm1_Expected{35|6M9} 104r22 104r57
+

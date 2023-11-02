@@ -1,0 +1,345 @@
+V "GNAT Lib v13"
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyI
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U riscv_base_instruction_set_test%b  riscv_base_instruction_set_test.adb  bb11d414 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.strings.text_buffers.unbounded%s  a-stbuun.adb  a-stbuun.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W riscv_base_instruction_format%s  riscv_base_instruction_format.adb  riscv_base_instruction_format.ali
+W riscv_base_instruction_set%s  riscv_base_instruction_set.adb  riscv_base_instruction_set.ali
+W riscv_instruction%s	riscv_instruction.adb	riscv_instruction.ali
+Z system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+Z system.img_uns%s	s-imguns.ads		s-imguns.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U riscv_base_instruction_set_test%s  riscv_base_instruction_set_test.ads  e5cdd172 EE OO PF PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_cases%s	aunit-test_cases.adb	aunit-test_cases.ali
+W riscv_base_instruction_set%s  riscv_base_instruction_set.adb  riscv_base_instruction_set.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230802193341 76789da1 ada%s
+D a-assert.ads		20230802193341 ba465f5c ada.assertions%s
+D a-calend.ads		20230802193341 f55c50a3 ada.calendar%s
+D a-except.ads		20230802193341 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230802193341 bf4f806b ada.finalization%s
+D a-inteio.ads		20230802193341 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230802193341 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230802193341 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230802193341 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230802193341 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20230802193341 119b8fb3 ada.streams%s
+D a-string.ads		20230802193341 90ac6797 ada.strings%s
+D a-sttebu.ads		20230802193341 f1ad67a2 ada.strings.text_buffers%s
+D a-stbuun.ads		20230802193341 7ace507d ada.strings.text_buffers.unbounded%s
+D a-stuten.ads		20230802193341 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230802193341 9eaa38c6 ada.tags%s
+D a-textio.ads		20230802193341 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20230802193341 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20230802193341 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20210827100008 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20210827100008 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20210827100008 76cdf7c6 aunit%s
+D aunit-assertions.ads	20210827100008 b7f9ecd6 aunit.assertions%s
+D aunit-io.ads		20210827100008 fb5ed18b aunit.io%s
+D aunit-options.ads	20210827100008 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20210827100008 4111c32f aunit.simple_test_cases%s
+D aunit-test_cases.ads	20210827100008 3fb77584 aunit.test_cases%s
+D aunit-test_filters.ads  20210827100008 f10b2127 aunit.test_filters%s
+D aunit-test_results.ads  20210827100008 b44de7dc aunit.test_results%s
+D aunit-tests.ads	20210827100008 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20210827100008 d9c247b0 aunit.time_measure%s
+D gnat.ads		20230802193341 b5988c27 gnat%s
+D g-souinf.ads		20230802193341 265ae3bd gnat.source_info%s
+D interfac.ads		20230802193341 15f799c2 interfaces%s
+D i-cstrea.ads		20230802193341 e53d8b8e interfaces.c_streams%s
+D riscv_base_instruction_format.ads  20231101194555 a53b17e8 riscv_base_instruction_format%s
+D riscv_base_instruction_set.ads  20231101211236 89d86fa5 riscv_base_instruction_set%s
+D riscv_base_instruction_set_test.ads  20231029211101 256f3c95 riscv_base_instruction_set_test%s
+D riscv_base_instruction_set_test.adb  20231029212434 e0503166 riscv_base_instruction_set_test%b
+D riscv_cpu.ads		20231101205857 a40a0c3b riscv_cpu%s
+D riscv_instruction.ads	20231101211255 b9182c2f riscv_instruction%s
+D riscv_memory.ads	20231101200433 d5d5a5f2 riscv_memory%s
+D riscv_registers.ads	20231028202404 08501fa4 riscv_registers%s
+D system.ads		20230802193341 426dafb8 system%s
+D s-assert.ads		20230802193341 9c4520c7 system.assertions%s
+D s-casuti.ads		20230802193341 cf13d755 system.case_util%s
+D s-crtl.ads		20230802193341 8a0692f8 system.crtl%s
+D s-exctab.ads		20230802193341 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230802193341 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20230802193341 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230802193341 4ff27390 system.finalization_root%s
+D s-imagei.ads		20230802193341 c707dfd0 system.image_i%s
+D s-imageu.ads		20230802193341 631c6ed0 system.image_u%s
+D s-imgllli.ads		20230802193341 8322d24d system.img_llli%s
+D s-imguns.ads		20230802193341 7867236f system.img_uns%s
+D s-memory.ads		20230802193341 5b8432d0 system.memory%s
+D s-parame.ads		20230802193341 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230802193341 91708d21 system.pool_global%s
+D s-putima.ads		20230802193341 17291fe4 system.put_images%s
+D s-secsta.ads		20230802193341 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230802193341 df77073e system.soft_links%s
+D s-stache.ads		20230802193341 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230802193341 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230802193341 eb464a47 system.standard_library%b
+D s-stoele.ads		20230802193341 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230802193341 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230802193341 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230802193341 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230802193341 fa2a7f59 system.unsigned_types%s
+D s-valllli.ads		20230802193341 bf3121bd system.val_llli%s
+D s-vallllu.ads		20230802193341 fcd04714 system.val_lllu%s
+D s-valuns.ads		20230802193341 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230802193341 fcd603d8 system.val_util%s
+D s-valuei.ads		20230802193341 11081e09 system.value_i%s
+D s-vaispe.ads		20230802193341 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230802193341 18770347 system.value_u%s
+D s-vauspe.ads		20230802193341 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20230802193341 d9032363 system.wch_con%s
+D s-widlllu.ads		20230802193341 c5dfde5a system.wid_lllu%s
+D s-widuns.ads		20230802193341 866a5800 system.wid_uns%s
+D s-widthu.ads		20230802193341 b32f15e2 system.width_u%s
+G a e
+G c Z s b [name riscv_base_instruction_set_test 9 13 none]
+G c Z s b [register_tests riscv_base_instruction_set_test 11 14 none]
+G c Z s b [test_get_instruction_executor riscv_base_instruction_set_test 14 14 none]
+G c Z s b [test_get_opcode riscv_base_instruction_set_test 15 14 none]
+G c Z s b [test_get_extended_opcode riscv_base_instruction_set_test 16 14 none]
+G c Z s b [test_get_r_type_opcode riscv_base_instruction_set_test 17 14 none]
+G c Z s b [test_get_special_opcode riscv_base_instruction_set_test 18 14 none]
+G c Z s s [testDF riscv_base_instruction_set_test 7 9 none]
+G c Z s s [testIP riscv_base_instruction_set_test 7 9 none]
+G r c none [name riscv_base_instruction_set_test 9 13 none] [format aunit 44 13 none]
+G r c none [register_tests riscv_base_instruction_set_test 11 14 none] [register_routine aunit__test_cases__registration 65 17 none]
+G r c none [test_get_instruction_executor riscv_base_instruction_set_test 14 14 none] [get_instruction_executor riscv_base_instruction_set 197 13 none]
+G r c none [test_get_instruction_executor riscv_base_instruction_set_test 14 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_get_opcode riscv_base_instruction_set_test 15 14 none] [get_opcode riscv_base_instruction_set 199 13 none]
+G r c none [test_get_opcode riscv_base_instruction_set_test 15 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_get_extended_opcode riscv_base_instruction_set_test 16 14 none] [get_extended_opcode riscv_base_instruction_set 200 13 none]
+G r c none [test_get_extended_opcode riscv_base_instruction_set_test 16 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_get_r_type_opcode riscv_base_instruction_set_test 17 14 none] [get_r_type_opcode riscv_base_instruction_set 201 13 none]
+G r c none [test_get_r_type_opcode riscv_base_instruction_set_test 17 14 none] [get_opcode riscv_base_instruction_set 199 13 none]
+G r c none [test_get_r_type_opcode riscv_base_instruction_set_test 17 14 none] [assert aunit__assertions 48 14 none]
+G r c none [test_get_special_opcode riscv_base_instruction_set_test 18 14 none] [get_special_opcode riscv_base_instruction_set 202 13 none]
+G r c none [test_get_special_opcode riscv_base_instruction_set_test 18 14 none] [assert aunit__assertions 48 14 none]
+G r s test_case [testIP riscv_base_instruction_set_test 7 9 none] [test_caseIP aunit__test_cases 116 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 39|1r6 154r7
+X 17 a-textio.ads
+58K13*Text_IO 787e16 39|1w10 154r11
+566U14*Put_Line 39|154s19
+X 21 ada_containers-aunit_lists.ads
+53R9*Cursor
+X 22 aunit.ads
+34K9*AUnit 48e10 38|1w6 1r17 2r6 2r29 9r36 39|2r6 2r28 9r36 11r14 15r11
+36P9*Message_String(string) 38|9r42 39|9r42
+44V13*Format{36P9} 39|11s20
+X 23 aunit-assertions.ads
+44K15*Assertions 155e21 39|2w12 2r34
+48U14*Assert 39|59s7 62s7 65s7 68s7 71s7 74s7 76s7 78s7 80s7 82s7 84s7 86s7
+. 88s7 90s7 92s7 94s7 96s7 98s7 100s7 102s7 104s7 106s7 108s7 110s7 112s7
+. 114s7 116s7 118s7 120s7 122s7 124s7 134s7 142s7 155s7 157s7 165s7
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter<21|53R9[145]>
+113V13*First_Failure{110R9}
+X 26 aunit-simple_test_cases.ads
+57U14*Set_Up
+60U14*Tear_Down
+X 27 aunit-test_cases.ads
+39K15*Test_Cases 121e21 38|2w12 2r35 7r21 14r56 15r42 16r52 17r52 18r52 39|15r17
+. 24r56 129r42 137r52 145r52 160r52
+41H9*Test_Case<26|44R9> 119e14 38|7r32 14r67 15r53 16r63 17r63 18r63 39|24r67
+. 129r53 137r63 145r63 160r63
+57U14*Set_Up_Case
+60U14*Tear_Down_Case
+63K12*Registration 74e20 39|15r28
+65U17*Register_Routine 39|17s7 18s7 19s7 20s7 21s7
+91U14*Run<26|67p14>
+98U14*Run_Test<26|53p14>
+101V13*Routine_Name{22|36P9}<26|50p13>
+X 36 riscv_base_instruction_format.ads
+3K9*RISCV_Base_Instruction_Format 146e34 39|4w6 4r41
+5M9*Instruction 39|25r14 26r18 27r18 28r22 29r22 30r24 31r24 32r24 33r24
+. 34r24 35r24 36r24 37r24 38r24 39r24 40r24 41r24 42r24 43r24 44r24 45r24
+. 46r24 47r24 48r24 49r24 50r24 51r24 52r24 53r24 54r24 55r24 130r15 131r16
+. 138r15 139r16 146r24 147r24 150r24 151r24 161r15 162r16
+X 37 riscv_base_instruction_set.ads
+6K9*RISCV_Base_Instruction_Set 259e31 38|3w6 39|3w6 3r40
+8E9*Base_Instruction_Set 56e5 39|132r18 140r18 148r24 152r24 154r29 163r18
+11n7*addi{8E9} 39|140r42
+14n7*add{8E9} 39|148r48
+18n7*jal{8E9} 39|132r42
+52n7*ebreak{8E9} 39|163r42
+53n7*sub{8E9} 39|152r48
+195P9*Instruction_Executor 39|56r14
+197V13*Get_Instruction_Executor{195P9} 39|58s15 61s15 64s15 67s15 70s15 73s15
+. 75s15 77s15 79s15 81s15 83s15 85s15 87s15 89s15 91s15 93s15 95s15 97s15
+. 99s15 101s15 103s15 105s15 107s15 109s15 111s15 113s15 115s15 117s15 119s15
+. 121s15 123s15
+199V13*Get_Opcode{36|5M9} 39|131s31 154s59
+200V13*Get_Extended_Opcode{36|5M9} 39|139s31
+201V13*Get_R_Type_Opcode{36|5M9} 39|147s39 151s39
+202V13*Get_Special_Opcode{36|5M9} 39|162s31
+X 38 riscv_base_instruction_set_test.ads
+5K9*RISCV_Base_Instruction_Set_Test 20l5 20e36 39|7b14 168l5 168t36
+7R9*Test<27|41R9> 23|101p14 104p14 107p13 113p13 26|57p14 60p14 27|57p14
+. 60p14 91P14 98P14 101P13 38|7e58 9P13 9r23 11P14 11r41 39|9r23 14r41
+9V13*Name{22|36P9}<26|47p13> 9>19 39|9b13 12l8 12t12
+9r19 T{7R9} 39|9b19
+11U14*Register_Tests<27|54p14> 11=30 39|14b14 22l8 22t22
+11r30 T{7R9} 39|14b30 17m25 18m25 19m25 20m25 21m25
+14U14*Test_Get_Instruction_Executor 14=45 39|21r28 24b14 126l8 126t37
+14c45 T<27|41R9> 39|24b45
+15U14*Test_Get_Opcode 15=31 39|17r28 129b14 135l8 135t23
+15c31 T<27|41R9> 39|129b31
+16U14*Test_Get_Extended_Opcode 16=41 39|18r28 137b14 143l8 143t32
+16c41 T<27|41R9> 39|137b41
+17U14*Test_Get_R_Type_Opcode 17=41 39|19r28 145b14 158l8 158t30
+17c41 T<27|41R9> 39|145b41
+18U14*Test_Get_Special_Opcode 18=41 39|20r28 160b14 166l8 166t31
+18c41 T<27|41R9> 39|160b41
+X 39 riscv_base_instruction_set_test.adb
+25m7 Inst{36|5M9} 58r41
+26m7 Inst_ADD{36|5M9} 61r41
+27m7 Inst_SUB{36|5M9} 64r41
+28m7 Inst_JAL_Pos{36|5M9} 67r41
+29m7 Inst_JAL_Neg{36|5M9} 70r41
+30m7 Inst_ADDI{36|5M9} 73r41
+31m7 Inst_AUIPC{36|5M9} 75r41
+32m7 Inst_LUI{36|5M9} 77r41
+33m7 Inst_BEQ{36|5M9} 79r41
+34m7 Inst_JALR{36|5M9} 81r41
+35m7 Inst_SLLI{36|5M9} 83r41
+36m7 Inst_SLL{36|5M9} 85r41
+37m7 Inst_BNE{36|5M9} 87r41
+38m7 Inst_SLTI{36|5M9} 89r41
+39m7 Inst_SLT{36|5M9} 91r41
+40m7 Inst_SLTIU{36|5M9} 93r41
+41m7 Inst_XORI{36|5M9} 95r41
+42m7 Inst_INST_XOR{36|5M9} 97r41
+43m7 Inst_BLT{36|5M9} 99r41
+44m7 Inst_SRLI{36|5M9} 101r41
+45m7 Inst_SRL{36|5M9} 103r41
+46m7 Inst_BGE{36|5M9} 105r41
+47m7 Inst_ORI{36|5M9} 107r41
+48m7 Inst_INST_OR{36|5M9} 109r41
+49m7 Inst_BLTU{36|5M9} 111r41
+50m7 Inst_ANDI{36|5M9} 113r41
+51m7 Inst_INST_AND{36|5M9} 115r41
+52m7 Inst_BGEU{36|5M9} 117r41
+53m7 Inst_ECALL{36|5M9} 119r41
+54m7 Inst_SRAI{36|5M9} 121r41
+55m7 Inst_SRA{36|5M9} 123r41
+56p7 Func{37|195P9} 58m7 59r15 61m7 62r15 64m7 65r15 67m7 68r15 70m7 71r15
+. 73m7 74r15 75m7 76r15 77m7 78r15 79m7 80r15 81m7 82r15 83m7 84r15 84r88
+. 85m7 86r15 87m7 88r15 89m7 90r15 91m7 92r15 93m7 94r15 95m7 96r15 97m7
+. 98r15 99m7 100r15 101m7 102r15 103m7 104r15 105m7 106r15 107m7 108r15 109m7
+. 110r15 111m7 112r15 113m7 114r15 115m7 116r15 117m7 118r15 119m7 120r15
+. 121m7 122r15 123m7 124r15
+130m7 Instr{36|5M9} 131r43
+131m7 Opcode{36|5M9} 134r15 134r132
+132e7 Expected{37|8E9} 134r24 134r97
+138m7 Instr{36|5M9} 139r52
+139m7 Opcode{36|5M9} 142r15 142r141
+140e7 Expected{37|8E9} 142r24 142r106
+146m7 Instr_ADD{36|5M9} 147r58
+147m7 Opcode_ADD{36|5M9} 155r15 155r153
+148e7 Expected_ADD{37|8E9} 155r28 155r114
+150m7 Instr_SUB{36|5M9} 151r58 154r71
+151m7 Opcode_SUB{36|5M9} 157r15 157r153
+152e7 Expected_SUB{37|8E9} 157r28 157r114
+161m7 Instr{36|5M9} 162r51
+162m7 Opcode{36|5M9} 165r15 165r141
+163e7 Expected{37|8E9} 165r24 165r106
+X 41 riscv_instruction.ads
+4K9*RISCV_Instruction 39|5w6 62r22 65r22 68r22 71r22 74r22 76r22 78r22 80r22
+. 82r22 84r22 86r22 88r22 90r22 92r22 94r22 96r22 98r22 100r22 102r22 104r22
+. 106r22 108r22 110r22 112r22 114r22 116r22 118r22 120r22 122r22 124r22 41|101e22
+10U14*ADDI 39|74r40
+12U14*AUIPC 39|76r40
+16U14*ADD 39|62r40
+18U14*LUI 39|78r40
+20U14*BEQ 39|80r40
+22U14*JALR 39|82r40
+24U14*JAL 39|68r40 71r40
+32U14*SLLI 39|84r40
+36U14*SLL 39|86r40
+38U14*BNE 39|88r40
+44U14*SLTI 39|90r40
+48U14*SLT 39|92r40
+52U14*SLTIU 39|94r40
+60U14*XORI 39|96r40
+62U14*INST_XOR 39|98r40
+64U14*BLT 39|100r40
+68U14*SRLI 39|102r40
+70U14*SRL 39|104r40
+72U14*BGE 39|106r40
+76U14*ORI 39|108r40
+78U14*INST_OR 39|110r40
+80U14*BLTU 39|112r40
+84U14*ANDI 39|114r40
+86U14*INST_AND 39|116r40
+88U14*BGEU 39|118r40
+92U14*ECALL 39|120r40
+94U14*SUB 39|65r40
+96U14*SRAI 39|122r40
+98U14*SRA 39|124r40
+X 44 system.ads
+67M9*Address
+X 56 s-memory.ads
+51V13*Alloc{44|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{44|67M9} 103i<c,__gnat_realloc>22
+X 64 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+

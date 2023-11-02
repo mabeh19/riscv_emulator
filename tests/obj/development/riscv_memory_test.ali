@@ -1,0 +1,150 @@
+V "GNAT Lib v13"
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyI
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U riscv_memory_test%b	riscv_memory_test.adb	38b4731f OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W riscv_memory%s	riscv_memory.adb	riscv_memory.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U riscv_memory_test%s	riscv_memory_test.ads	44de9f5c EE OO PF PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.simple_test_cases%s  aunit-simple_test_cases.adb  aunit-simple_test_cases.ali
+W riscv_memory%s	riscv_memory.adb	riscv_memory.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230802193341 76789da1 ada%s
+D a-calend.ads		20230802193341 f55c50a3 ada.calendar%s
+D a-except.ads		20230802193341 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230802193341 bf4f806b ada.finalization%s
+D a-inteio.ads		20230802193341 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230802193341 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230802193341 119b8fb3 ada.streams%s
+D a-string.ads		20230802193341 90ac6797 ada.strings%s
+D a-sttebu.ads		20230802193341 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230802193341 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230802193341 9eaa38c6 ada.tags%s
+D a-textio.ads		20230802193341 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20230802193341 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20230802193341 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20210827100008 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20210827100008 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20210827100008 76cdf7c6 aunit%s
+D aunit-assertions.ads	20210827100008 b7f9ecd6 aunit.assertions%s
+D aunit-io.ads		20210827100008 fb5ed18b aunit.io%s
+D aunit-options.ads	20210827100008 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20210827100008 4111c32f aunit.simple_test_cases%s
+D aunit-test_filters.ads  20210827100008 f10b2127 aunit.test_filters%s
+D aunit-test_results.ads  20210827100008 b44de7dc aunit.test_results%s
+D aunit-tests.ads	20210827100008 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20210827100008 d9c247b0 aunit.time_measure%s
+D gnat.ads		20230802193341 b5988c27 gnat%s
+D g-souinf.ads		20230802193341 265ae3bd gnat.source_info%s
+D interfac.ads		20230802193341 15f799c2 interfaces%s
+D i-cstrea.ads		20230802193341 e53d8b8e interfaces.c_streams%s
+D riscv_memory.ads	20231101200433 d5d5a5f2 riscv_memory%s
+D riscv_memory_test.ads	20231024184111 a6d70e47 riscv_memory_test%s
+D riscv_memory_test.adb	20231102204700 fc4f347c riscv_memory_test%b
+D system.ads		20230802193341 426dafb8 system%s
+D s-crtl.ads		20230802193341 8a0692f8 system.crtl%s
+D s-exctab.ads		20230802193341 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230802193341 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20230802193341 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230802193341 4ff27390 system.finalization_root%s
+D s-parame.ads		20230802193341 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230802193341 91708d21 system.pool_global%s
+D s-putima.ads		20230802193341 17291fe4 system.put_images%s
+D s-secsta.ads		20230802193341 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230802193341 df77073e system.soft_links%s
+D s-stache.ads		20230802193341 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230802193341 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230802193341 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230802193341 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230802193341 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230802193341 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230802193341 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230802193341 d9032363 system.wch_con%s
+G a e
+G c Z s b [name riscv_memory_test 9 13 none]
+G c Z s b [run_test riscv_memory_test 11 14 none]
+G c Z s s [testDF riscv_memory_test 7 9 none]
+G c Z s s [testIP riscv_memory_test 7 9 none]
+G r c none [name riscv_memory_test 9 13 none] [format aunit 44 13 none]
+G r c none [run_test riscv_memory_test 11 14 none] [write riscv_memory 25 14 none]
+G r c none [run_test riscv_memory_test 11 14 none] [assert aunit__assertions 48 14 none]
+G r c none [run_test riscv_memory_test 11 14 none] [read riscv_memory 41 13 none]
+G r s test_case [testIP riscv_memory_test 7 9 none] [test_caseIP aunit__simple_test_cases 75 9 none]
+X 16 ada_containers-aunit_lists.ads
+53R9*Cursor
+X 17 aunit.ads
+34K9*AUnit 48e10 31|1w6 1r17 2r6 7r21 9r35 32|1r6 1r28 6r35 9r14
+36P9*Message_String(string) 31|9r41 32|6r41
+44V13*Format{36P9} 32|9s20
+X 18 aunit-assertions.ads
+44K15*Assertions 155e21 32|1w12 1r34
+48U14*Assert 32|18s7 20s7
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter<16|53R9[145]>
+113V13*First_Failure{110R9}
+X 21 aunit-simple_test_cases.ads
+42K15*Simple_Test_Cases 77e28 31|2w12 7r27
+44H9*Test_Case<18|96R9> 75e73 31|7r45
+50V13*Routine_Name{17|36P9}
+57U14*Set_Up
+60U14*Tear_Down
+67U14*Run
+X 30 riscv_memory.ads
+2K9*RISCV_Memory 53e17 31|3w6 32|2w6 2r26
+5M9*Byte
+8I9*Address<long_integer>
+9A9*Memory(5M9)<8I9> 32|14r17 15r18
+16i4*RAM_START{8I9} 32|17r21 18r22 19r33
+22A12*RAM_Memory{9A9}<8I9> 32|13r15
+25U14*Write 32|17s7
+41V13*Read{9A9} 32|19s20
+X 31 riscv_memory_test.ads
+5K9*RISCV_Memory_Test 13l5 13e22 32|4b14 23l5 23t22
+7R9*Test<21|44R9> 18|101p14 104p14 107p13 113p13 21|50p13 57p14 60p14 67p14
+. 31|7e71 9P13 9r22 11P14 11r34 32|6r22 12r34
+9V13*Name{17|36P9}<21|47p13> 9>19 32|6b13 10l8 10t12
+9r19 T{7R9} 32|6b19 7r28
+11U14*Run_Test<21|53p14> 11=24 32|12b14 21l8 21t16
+11r24 T{7R9} 32|12b24
+X 32 riscv_memory_test.adb
+13a7 R_Mem{30|22A12} 17m14 18r15 19r26
+14a7 Test_Buf{30|9A9} 15r26 17r32 18r35 19r44 20r27
+15a7 Read_Back{30|9A9} 19m7 20r15
+

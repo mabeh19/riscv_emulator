@@ -1,0 +1,34 @@
+[GENERATED OBJECT FILE]
+b__riscv_emu_harness.o
+[PROJECT FILES]
+/home/mathias/Documents/Ada/riscv_emulator/tests/tests.gpr
+20231023200541 b421356aef56025018e40e2897e17eb3
+/home/mathias/Documents/Ada/riscv_emulator/config/riscv_emulator_config.gpr
+20231023200300 f2ff90b297ed8f57d82cc4bec76d0da7
+/home/mathias/Documents/Ada/riscv_emulator/riscv_emulator.gpr
+20231023161733 49c67b2eb18f494b3b1444a11fb22756
+/home/mathias/Documents/Ada/riscv_emulator/tests/alire/cache/dependencies/aunit_22.0.0_cbd7a80a/lib/gnat/aunit_shared.gpr
+20210827100008 0035d5daa8c8f4775d6ce23df50d7624
+/home/mathias/Documents/Ada/riscv_emulator/tests/alire/cache/dependencies/aunit_22.0.0_cbd7a80a/lib/gnat/aunit.gpr
+20210827100008 def989df9caa1cc37f0833e82479b28f
+/home/mathias/Documents/Ada/riscv_emulator/tests/config/tests_config.gpr
+20231023200300 b72a45ad81dbd88089fe249a49d890c7
+[BOUND OBJECT FILES]
+/home/mathias/Documents/Ada/riscv_emulator/obj/development/riscv_memory.o
+/home/mathias/Documents/Ada/riscv_emulator/tests/obj/development/riscv_memory_test.o
+/home/mathias/Documents/Ada/riscv_emulator/tests/obj/development/riscv_emu_suite.o
+/home/mathias/Documents/Ada/riscv_emulator/tests/obj/development/riscv_emu_harness.o
+[GENERATED SOURCE FILES]
+b__riscv_emu_harness.ads
+b__riscv_emu_harness.adb
+b__riscv_emu_harness.ali
+[RESULTING OPTIONS]
+-L/home/mathias/Documents/Ada/riscv_emulator/tests/obj/development/
+-L/home/mathias/Documents/Ada/riscv_emulator/tests/obj/development/
+-L/home/mathias/Documents/Ada/riscv_emulator/tests/alire/cache/dependencies/aunit_22.0.0_cbd7a80a/lib/aunit/native-full/
+-L/home/mathias/Documents/Ada/riscv_emulator/obj/development/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/adalib/
+-static
+-static-libgcc
+/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/adalib/libgnat.a
+-ldl
