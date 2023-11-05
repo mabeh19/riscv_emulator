@@ -186,6 +186,7 @@ package RISCV_Base_Instruction_Set is
    --
    --  ECALL Table
    --
+   ECALL_READ  : constant RISCV_Registers.Register := 63;
    ECALL_WRITE : constant RISCV_Registers.Register := 64;
    ECALL_EXIT  : constant RISCV_Registers.Register := 93;
 

@@ -24,10 +24,27 @@ package body RISCV_ECALL is
          end loop;
       end if;
 
-      Ada.Text_IO.Put (S);
+      if FD = FD_STDOUT then
+         Ada.Text_IO.Put (S);
+      end if;
 
       return Long_Integer (Count);
    end E_Write;
+
+   function E_Read (CPU : in RISCV_CPU.CPU_Context) return Long_Integer is
+      FD    : RISCV_Registers.Register renames CPU.Core_Registers.X (10);  --  a0: fd
+      Buf   : RISCV_Registers.Register renames CPU.Core_Registers.X (11);  --  a1: buffer
+      Len   : RISCV_Registers.Register renames CPU.Core_Registers.X (12);  --  a2: length of buffer
+
+      Emulated_Address : Address := RISCV_CPU.Address_To_Emulated_Address (CPU, Address (Buf));
+
+      procedure Do_Read (Memory : in out Memory) is
+      begin
+         Ada.Text_IO.
+      end Do_Read;
+   begin
+      RISCV_CPU.Mem_Region_RW (CPU, Address (Buf), Do_Read'Access);
+   end E_Read;
 
    function E_Exit  (CPU : out RISCV_CPU.CPU_Context) return Long_Integer is
       function To_Signed is new Ada.Unchecked_Conversion (

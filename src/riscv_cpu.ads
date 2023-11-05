@@ -17,8 +17,6 @@ package RISCV_CPU is
       Should_Quit    : Boolean;
    end record;
 
-   type Read_Write_Operation is access procedure (Memory : in out RISCV_Memory.Memory);
-
    procedure Run (CPU : out CPU_Context);
 
    function Address_To_Emulated_Address (CPU   : CPU_Context;
