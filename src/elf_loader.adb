@@ -53,7 +53,7 @@ package body ELF_Loader is
                              Result.RAM_Offset,
                              Result.RAM_Size);
 
-      Put_Line ("Offsets: { ROM:" & Result.ROM_Offset'Image & " RAM:" & Result.RAM_Offset'Image & "}");
+      Put_Line ("Offsets: { ROM:" & Result.ROM_Offset'Image & " RAM:" & Result.RAM_Offset'Image & " }");
       Byte_IO.Close (F);
       return Result;
    exception

@@ -1,4 +1,6 @@
 with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; 
+with Ada.Unchecked_Conversion;
 
 with RISCV_Memory;                     use RISCV_Memory;
 with RISCV_Base_Instruction_Format;    use RISCV_Base_Instruction_Format;
@@ -14,16 +16,19 @@ package body RISCV_CPU is
       CPU.Should_Quit         := False;
    end Start;
 
-   procedure Run (CPU : out CPU_Context) is
+   procedure Run (CPU : out CPU_Context; Interactive : Boolean) is
       Current_Instruction : Instruction;
    begin
       Start (CPU);
       while not CPU.Should_Quit loop
+         if Interactive then
+            Dump_CPU_Registers (CPU); 
+         end if;
          Current_Instruction := Load (CPU, Address_To_Emulated_Address (CPU, Address (CPU.Core_Registers.PC)));
          exit when Current_Instruction = 0;
          Execute (CPU, Current_Instruction);
          --Put_Line ("General Registers: " & CPU.Core_Registers.X'Image);
-         RISCV_Registers.Add_Register (CPU.Core_Registers.PC, 4);
+         RISCV_Registers.Add_Register (CPU.Core_Registers.PC, 4); 
       end loop;
    end Run;
 
@@ -82,5 +87,56 @@ package body RISCV_CPU is
          Func (CPU.ROM);
       end if;
    end Mem_Region_RW;
- 
+
+   procedure Dump_CPU_Registers (CPU : in CPU_Context) is
+      function To_Int is new Ada.Unchecked_Conversion (
+         Source => RISCV_Registers.Register,
+         Target => Integer
+      );
+      Dummy : String := Ada.Text_IO.Get_Line;
+
+      Control_Preamble  : constant Character := Character'Val (8#33#);   --  '\033'
+      Clear_Screen      : constant String := "[2J";
+      Clear_Seq         : constant String := Control_Preamble & Clear_Screen;
+   begin
+      Put (Clear_Seq);
+      Set_Line (1);
+      Put ("PC");
+      Set_Col (10);
+      Put("=>");
+      Ada.Integer_Text_IO.Put (To_Int (CPU.Core_Registers.PC), Base => 16);
+      Put_Line ("");
+      for Idx in 0 .. CPU.Core_Registers.X'Length - 1 loop
+         Put (Register_To_ABI_Name (Idx));
+         Set_Col (10);
+         Put ("=>");
+         Ada.Integer_Text_IO.Put (To_Int (CPU.Core_Registers.X (Idx)), Base => 16);
+         Put_Line ("");
+      end loop;
+   end Dump_CPU_Registers;
+
+   function Register_To_ABI_Name (Register : Integer) return String is
+      A_Reg : Integer := Register - 10;
+      S_Reg : Integer := Register - 18 + 2;
+   begin
+      return (case Register is 
+         when 0   => "zero",
+         when 1   => "ra",
+         when 2   => "sp",
+         when 3   => "gp",
+         when 4   => "tp",
+         when 5   => "t0",
+         when 6   => "t1",
+         when 7   => "t2",
+         when 8   => "s0",
+         when 9   => "s1",
+         when 10 .. 17 => "a" & A_Reg'Image (2 .. 2),
+         when 18 .. 27 => "s" & S_Reg'Image (2 .. S_Reg'Image'Last),
+         when 28  => "t3",
+         when 29  => "t4",
+         when 30  => "t5",
+         when 31  => "t6",
+         when others => "UNKNOWN");
+   end Register_To_ABI_Name;
+
 end RISCV_CPU;

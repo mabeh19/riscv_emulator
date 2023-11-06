@@ -518,6 +518,7 @@ package body RISCV_Instruction is
    begin
       Retval := (case Syscall_Num is
                   when RISCV_Base_instruction_Set.ECALL_WRITE => RISCV_ECALL.E_Write (CPU),
+                  when RISCV_Base_Instruction_Set.ECALL_READ  => RISCV_Ecall.E_Read (CPU),
                   when RISCV_Base_Instruction_Set.ECALL_EXIT  => RISCV_ECALL.E_Exit (CPU),
                   when others => -1);
    end ECALL;

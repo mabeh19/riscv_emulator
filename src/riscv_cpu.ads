@@ -17,7 +17,7 @@ package RISCV_CPU is
       Should_Quit    : Boolean;
    end record;
 
-   procedure Run (CPU : out CPU_Context);
+   procedure Run (CPU : out CPU_Context; Interactive : Boolean);
 
    function Address_To_Emulated_Address (CPU   : CPU_Context;
                                          Addr  : RISCV_Memory.Address) return RISCV_Memory.Address;
@@ -32,5 +32,7 @@ private
                   Addr  : RISCV_Memory.Address)
                   return RISCV_Base_Instruction_Format.Instruction;
    procedure Execute (CPU  : in out CPU_Context;
-                      Inst : RISCV_Base_Instruction_Format.Instruction); 
+                      Inst : RISCV_Base_Instruction_Format.Instruction);
+   procedure Dump_CPU_Registers (CPU : in CPU_Context);
+   function Register_To_ABI_Name (Register : Integer) return String;
 end RISCV_CPU;
